@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 d-flex flex-row gap-2">
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" (click)="changeValue('increase')">Increase</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-danger" type="button" (click)="changeValue('decrease')">Decrease</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+   <p class="text-danger">{{number}}</p>
+  </div>
+
+</div>
